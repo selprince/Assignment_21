@@ -68,9 +68,4 @@ contract PupperCoinSaleDeployer {
         token.addMinter(token_sale_address);
         token.renounceMinter();
     }
-    //if statement that will stop time if goal is met
-    //function timesUp(cap) public view returns(closingTime){
-    //    if(goal==300000000000000000000) {
-    //        closingTime = now;}
-    //    }
-    }
+    
